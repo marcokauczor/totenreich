@@ -204,7 +204,7 @@
             Die Blätter starten sichtbar im unteren
             inneren Teil der Glaskugel.
           */
-          this.y = random(height * 0.68, height * 0.80);
+          this.y = random(height * 0.82, height * 0.88);
 
           /*
             Kleinere, aber weiterhin gut sichtbare Blätter.
@@ -255,10 +255,10 @@
             Die Blätter werden im unteren Glasbereich
             abgelegt und nicht auf dem Holzsockel.
           */
-          if (this.y > height * 0.82) {
+          if (this.y > height * 0.90) {
             this.y = random(
-              height * 0.72,
-              height * 0.81
+              height * 0.82,
+              height * 0.89
             );
 
             this.velocityX = 0;
